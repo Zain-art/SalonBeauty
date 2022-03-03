@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalonSearch3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styleall.css">
+</head>
+
+<body>
+    <div class="top_header text-white">
+        <div class="container ml-auto">
+            <div class="col-md-5 ml-auto">
+                <div class="m-0 d-flex pt-2 pb-2 mainhead">
+                    <div class="d-flex">
+                        <i class="fa fa-phone pt-1 mr-2"></i>
+                        <p class="m-0">+92 55 123456</p>
+                    </div>
+                    <div class="d-flex ml-4">
+                        <i class="fa fa-envelope pt-1 mr-2"></i>
+                        <p class="m-0">+92 55 123456</p>
+                        <i class="fab fa-twitter-square ml-3 mt-1 mr"></i>
+                        <i class="fab fa-facebook-square ml-3 mt-1 mr"> </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="photos/beautyfull_logo_header.png" id="imghead" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "><i class="fas fa-bars"></i></span>
+              </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav  ml-auto mr-2">
+                        <li class="nav-item active">
+                            <a class="nav-link home" href="index.html">Home 1 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menucolor" href="index2.html">salaon 2 <i class="fa fa-chevron-down ml-1"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown menucolor" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Categories <i class="fa fa-chevron-down ml-1"></i>
+                 </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="">Services</a>
+                                <a class="dropdown-item" href="#">Salon</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item " href="#">Dresses brand</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menucolor" href="index3.html">Deals 3<i class="fa fa-chevron-down ml-1"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  menucolor" href="index3.html" tabindex="-1" aria-disabled="true">Blogs</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-danger m-3 my-2 my-sm-0 out mr-3" type="submit">Login</button>
+                    <button class="btn signup   my-sm-0 " type="submit ">SignUp</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="card ">
+                <img class="card-img-top" src="photos/maryam_salon_img.jpg" width="100%" height="370px" alt="Card image">
+
+                <p class="ml-auto mr-3 mt-3">4.0 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="far fa-star"></i>&nbsp; 10 reviews
+                    </pre> <span><i class="fas fa-heart "></i></span>
+
+                </p>
+                <button class="getbtn1 ml-auto mr-3 ">Get Appoinment</button>
+                <div class="card-body  pl-4 ml-4" id="main1">
+                    <h4 class="card-title">Maryam Salon</h4>
+                    <p class="card-text"> <i class="fa fa-map-marker" aria-hidden="true"></i> Satellite Town ,Gujranwala</p>
+                    <p class="card-text">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>Time Today 9:00 AM - 8:00 PM
+                    </p>
+                </div>
+            </div>
+
+            <br>
+            <a href="" class="deal"> Deals</a> <span class="text-bold ml-5" style="font-weight: bold; font-size: large;">Special Discount</span> <span><a href="" class="viewdetail  col-md-2">View all Details</a> </span>
+            <br>
+            <br>
+            <div class="row">
+
+                <div class="col-lg-2  col-md-2">
+                    <div class="card dis">
+                        <img class="card-img-top" src="photos/hair_treatment_deal.jpg" alt="Card image cap">
+                        <div class="card-body mt-1">
+
+                            <h6 class="card-title mt-1">Hair Treament</h6>
+                            <p class="card-text pthree mb-2">Rs.3000</p>
+                            <hr>
+                            <a href="#" class="showdetail ml-2 mb-2">Show Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-2">
+                    <div class="card dis">
+                        <img class="card-img-top" src="photos/bridal_makeup_deal.jpg" alt="Card image cap">
+                        <div class="card-body mt-1">
+
+                            <h6 class="card-title mt-1">Bridal Makeup</h6>
+                            <p class="card-text pthree mb-2">Rs.3000</p>
+                            <hr>
+                            <a href="#" class="showdetail ml-2 mb-2">Show Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-2">
+                    <div class="card dis">
+                        <img class="card-img-top" src="photos/mani_pedi_deal.jpg" alt="Card image cap">
+                        <div class="card-body mt-1">
+
+                            <h6 class="card-title mt-1">Manicure Deal</h6>
+                            <p class="card-text pthree mb-2">Rs.3000</p>
+                            <hr>
+                            <a href="#" class="showdetail ml-2 mb-2">Show Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-2">
+                    <div class="card dis">
+                        <img class="card-img-top" src="photos/hair_treatment_deal.jpg" alt="Card image cap">
+                        <div class="card-body mt-1">
+
+                            <h6 class="card-title mt-1">Hair Makeup</h6>
+                            <p class="card-text pthree mb-2">Rs.3000</p>
+                            <hr>
+                            <a href="#" class="showdetail ml-2 mb-2">Show Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-2">
+                    <div class="card dis">
+                        <img class="card-img-top" src="photos/party_makeup_deal.jpg" alt="Card image cap">
+                        <div class="card-body mt-1">
+
+                            <h6 class="card-title mt-1">Party Makeup</h6>
+                            <p class="card-text pthree mb-2">Rs.3000</p>
+                            <hr>
+                            <a href="#" class="showdetail ml-2 mb-2">Show Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-2">
+                    <div class="card dis">
+                        <img class="card-img-top" src="photos/festival_deal.jpg" alt="Card image cap">
+                        <div class="card-body mt-1">
+
+                            <h6 class="card-title mt-1">Festival Deal</h6>
+                            <p class="card-text pthree mb-2">Rs.3000</p>
+                            <hr>
+                            <a href="#" class="showdetail ml-2 mb-2">Show Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <span class="text-bold " style="font-weight: bold; font-size: large;">Special Services</span>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card sd">
+                        <div class="cardbody">
+                            <h6 class="card-title pt-4 ml-4 ">Face Cleansing Mask </h6>
+
+
+                            <p class="card-text text-muted ml-4  mt-1">5 min &nbsp;
+                                <span> <a href="#" class="showdetail ">Show Details</a></span>
+
+                                <p class="r2 ">Rs.200</p>
+                                <br>
+                                <p class="saveup ">Save up to 80%</p>
+                                <button href="#" class="btn  select">Select</button>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card sd">
+                        <div class="cardbody">
+                            <h6 class="card-title pt-4 ml-4 ">Face Cleansing Mask </h6>
+
+
+                            <p class="card-text text-muted ml-4 mt-1">5 min &nbsp;
+                                <span> <a href="#" class="showdetail ">Show Details</a></span>
+
+                                <p class="r2 ">Rs.200</p>
+                                <br>
+                                <p class="saveup">Save up to 80%</p>
+                                <button href="#" class="btn  select">Select</button>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card sd">
+                        <div class="cardbody">
+                            <h6 class="card-title pt-4 ml-4 ">Face Cleansing Mask </h6>
+
+
+                            <p class="card-text text-muted ml-4 mt-1">5 min &nbsp;
+                                <span> <a href="#" class="showdetail ">Show Details</a></span>
+
+                                <p class="r2 ">Rs.200</p>
+                                <br>
+                                <p class="saveup">Save up to 80%</p>
+                                <button href="#" class="btn  select">Select</button>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card sd">
+                        <div class="cardbody">
+                            <h6 class="card-title pt-4 ml-4 ">Face Cleansing Mask </h6>
+
+
+                            <p class="card-text text-muted ml-4 mt-1">5 min &nbsp;
+                                <span> <a href="#" class="showdetail ">Show Details</a></span>
+
+                                <p class="r2 ">Rs.200</p>
+                                <br>
+                                <p class="saveup">Save up to 80%</p>
+                                <button href="#" class="btn  select">Select</button>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card sd">
+                        <div class="cardbody">
+                            <h6 class="card-title pt-4 ml-4 ">Face Cleansing Mask </h6>
+
+
+                            <p class="card-text text-muted ml-4 mt-1">5 min &nbsp;
+                                <span> <a href="#" class="showdetail ">Show Details</a></span>
+
+                                <p class="r2 ">Rs.200</p>
+                                <br>
+                                <p class="saveup">Save up to 80%</p>
+                                <button href="#" class="btn  select">Select</button>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <span class="text-bold " style="font-weight: bold; font-size: large;">Special Services</span>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="card  cardset1" style="width: 120px; height: 100px;">
+                        <img src="photos/facial_hover_cat.png" id="fa" alt="">
+                        <p class="card-text fpa ">
+                            Facial
+                        </p>
+                    </div>
+                </div>
+                <div class="col mr-1">
+                    <div class="card  " style="width: 120px; height: 100px;">
+                        <img src="photos/haircare_cat.png" id="fa" alt="">
+                        <p class="card-text text-muted fp">
+                            Hair Care
+                        </p>
+                    </div>
+                </div>
+                <div class="col mr-1">
+                    <div class="card  " style="width: 120px; height: 100px;">
+                        <img src="photos/makeup_cat.png" id="fa" alt="">
+                        <p class="card-text text-muted fp">
+                            Makeup
+                        </p>
+                    </div>
+                </div>
+                <div class="col mr-1">
+                    <div class="card  " style="width: 120px; height: 100px;">
+                        <img src="photos/manicure_cat.png" id="fa" alt="">
+                        <p class="card-text text-muted fp">
+                            Manicure
+                        </p>
+                    </div>
+                </div>
+                <div class="col mr-1">
+                    <div class="card  " style="width: 120px; height: 100px;">
+                        <img src="photos/pedicure_cat.png" id="fa" alt="">
+                        <p class="card-text text-muted fp">
+                            Pedicure
+                        </p>
+                    </div>
+                </div>
+                <div class="col mr-1">
+                    <div class="card  " style="width: 120px; height: 100px;">
+                        <img src="photos/body_cat.png" id="fa" alt="">
+                        <p class="card-text text-muted fp">
+                            Body
+                        </p>
+                    </div>
+                </div>
+                <div class="col mr-1">
+                    <div class="card  " style="width: 120px; height: 100px;">
+                        <img src="photos/massage_cat.png" id="fa" alt="">
+                        <p class="card-text text-muted fp">
+                            Massage
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="">
+                <div class="row row-cate">
+                    <div class="col">
+                       <div class="card cardset1">
+                          <img src="photos/facial_hover_cat.png" id="fa" alt="">
+                          <p class=" text-center  mt-2 fp">Facial</p>
+                       </div>
+                    </div>
+                    <div class="col">
+                       <div class="card cardset2 ">
+                          <img src="photos/haircare_cat.png" id="fa" alt="">
+                          <p class=" text-center mt-2 text-muted">Hair Care</p>
+                       </div>
+                    </div>
+                    <div class="col">
+                       <div class="card cardset3">
+                          <img src="photos/makeup_cat.png" id="fa" alt="">
+                          <p class=" text-center mt-2 text-muted">MakeUp</p>
+                       </div>
+                    </div>
+                    <div class="col">
+                       <div class="card cardset4">
+                          <img src="photos/manicure_cat.png" id="fa" alt="">
+                          <p class=" text-center mt-2 text-muted">ManiCure</p>
+                       </div>
+                    </div>
+                    <div class="col">
+                       <div class="card cardset5">
+                          <img src="photos/pedicure_cat.png" id="fa" alt="">
+                          <p class=" text-center mt-2 text-muted">Pedicure</p>
+                       </div>
+                    </div>
+                    <div class="col">
+                       <div class="card cardset6">
+                          <img src="photos/body_cat.png" id="fa" alt="">
+                          <p class=" text-center mt-2 text-muted">Body</p>
+                       </div>
+                    </div>
+                    <div class="col">
+                       <div class="card cardset7">
+                          <img src="photos/massage_cat.png" id="fa" alt="">
+                          <p class=" text-center mt-2 text-muted">Massage</p>
+                       </div>
+                    </div>
+                 </div>
+              </div> -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <p class="text-muted  eye1">EyeBrows & Eyelashes(1)</p>
+            </div>
+            <div class="col-lg-8 bcolor">
+                <p class="eyelash mt-3">Eyelash-Extensions Cluster-Lashes</p>
+                <p class="card-text text-muted ml-4 lash">30 min <span> <a href="#" class="showdetail1 ml-2 ">Show Details</a></span></p>
+                <p class="r2 ">Rs.1800</p>
+                <br>
+                <p class="saveup">Save up to 20%</p>
+                <button href="#" class="btn  selected">Selected</button>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-4 el">
+
+                <p class="text-muted eyeex  p-3">Eyelash & Extensions(4) <span><i class="fas fa-greater-than mr-2"></i></span> </p>
+            </div>
+            <div class="col-lg-8 e2">
+                <p class="eyelash mt-3">Eyelash-Extensions Strip-Lashes</p>
+
+                <p class="card-text text-muted ml-4  lash">20 min<span> <a href="#" class="showdetail1  ml-2">Show Details</a></span></p>
+
+                <p class="r2 ">Rs.800</p>
+                <br>
+                <p class="saveup">Save up to 20%</p>
+                <button href="#" class="btn  selectbtn">Selected</button>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-4 e4">
+
+                <p class="text-muted p-4 ">Permanent & Semi-Permanent Makeup </p>
+            </div>
+            <div class="col-lg-8 e3">
+                <p class="eyelash mt-3">Eyelash-Extensions Cluster-Lashes-infills</p>
+
+                <p class="card-text text-muted ml-4 lah">45 min<span> <a href="#" class="showdetail1  ml-2">Show Details</a></span></p>
+
+                <p class="r2 ">Rs.700</p>
+                <br>
+                <p class="saveup">Save up to 10%</p>
+                <button href="#" class="btn  selectbtn">Selected</button>
+            </div>
+        </div>
+        <div class="row">
+
+
+            <div class="col-lg-8 ml-auto e5">
+                <p class="eyelash mt-3">Eyelash-Extensions Cluster-Lashes-infills</p>
+
+                <p class="card-text text-muted ml-4 lash">45 min <span> <a href="#" class="showdetail1  ">Show Details</a></span></p>
+
+                <p class="r2 ">Rs.700</p>
+                <br>
+                <p class="saveup">Save up to 20%</p>
+                <button href="#" class="btn  selectbtn">Selected</button>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="jumbotron">
+        <div class="container">
+            <br>
+            <span class="text-bold " style="font-weight: bold; font-size: large;">Facitiles</span>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-2">
+                    <span><i class="fa fa-check-circle c1" aria-hidden="true"></i></span> <span class="text-muted">Pet Friendly</span>
+
+                </div>
+                <div class="col-lg-2">
+                    <span><i class="fa fa-check-circle c1" aria-hidden="true"></i></span> <span class="text-muted">Child Friendly</span>
+                </div>
+                <div class="col-lg-2">
+                    <span><i class="fa fa-check-circle c1" aria-hidden="true"></i></span> <span class="text-muted">Air Conditioned</span>
+                </div>
+                <div class="col-lg-2">
+                    <span><i class="fa fa-check-circle whelc" aria-hidden="true"></i></span> <span class="text-muted wheel">Wheelchair accessible</span>
+                </div>
+                <div class="col-lg-4">
+                    <span><i class="fa fa-check-circle c1" aria-hidden="true"></i></span> <span class="text-muted">Cash,Debit& Credit card accepted</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2">
+                    <span><i class="fa fa-check-circle bus" aria-hidden="true"></i></span> <span class="text-muted buss">Close to busStand</span>
+
+                </div>
+                <div class="col-lg-2">
+                    <span><i class="fa fa-check-circle c1" aria-hidden="true"></i></span> <span class="text-muted">Free Parking</span>
+                </div>
+                <div class="col-lg-4">
+                    <span><i class="fa fa-check-circle c1" aria-hidden="true"></i></span> <span class="text-muted">Languages spoken: English</span>
+                </div>
+
+            </div>
+            <br>
+            <span class="text-bold " style="font-weight: bold; font-size: large;">Reviews</span>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="bg-white review">
+                        <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span>                        <span><i class="fa fa-star" aria-hidden="true"></i></span> &nbsp; <span class="text-muted">Rosain Natalia</span> <span class="text-muted day">6 days ago</span>
+                        <p class="para">It was great and comfortable experience.Highly recommended</p>
+                        <span class="text-muted">Treament By Lilly</span>&nbsp; <span class="text-muted manicure">Manicure</span>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4  review bg-white">
+                    <span class="rews ">5.0</span> &nbsp;<span><i class="fa fa-star fa-lg" aria-hidden="true"></i>&nbsp;<i class="fa fa-star fa-lg " aria-hidden="true"></i>&nbsp;<i class="fa fa-star fa-lg" aria-hidden="true"></i>&nbsp;<i class="fa fa-star fa-lg" aria-hidden="true"></i>&nbsp;<i class="fa fa-star fa-lg" aria-hidden="true"></i>&nbsp;</span>
+                    <p class="text-muted mt-3">10 reviews</p>
+                </div>
+
+                <div class="col-lg-8 mt-2">
+                    <div class="bg-white review2">
+                        <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span>                        <span><i class="fa fa-star" aria-hidden="true"></i></span> &nbsp; <span class="text-muted">Rosain Natalia</span> <span class="text-muted day">6 days ago</span>
+                        <p class="para">It was great and comfortable experience.Highly recommended</p>
+                        <span class="text-muted">Treament By Lilly</span>&nbsp; <span class="text-muted manicure">Manicure</span>
+                    </div>
+
+                </div>
+
+                <div class="bg-white review col-lg-4 fil">
+                    <h5 class="filter">Filter by treament</h5>
+                    <form action="">
+
+                        <select class="form-control" id="exampleFormControlSelect1">
+                     <option>All Treaments</option>
+                     <option>2</option>
+                     <option>3</option>
+                     <option>4</option>
+                     <option>5</option>
+                  </select>
+                    </form>
+                    <br>
+
+                    <h5 class="filter">Filter by rating</h5>
+                    <span class="text-muted">5</span> <span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="fa fa-star ml-2" aria-hidden="true"></i></span>                    &nbsp; <span><img src="photos/minus.png" width="140px" height="80px" class="minus" alt=""></span> &nbsp; &nbsp;<span><i class="fa fa-square-o" aria-hidden="true"></i>
+               </span>
+                    <div class="ratingmg"> <span class="text-muted">0</span> <span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="far fa-star ml-2"></i></span>                        &nbsp; <span><img src="photos/minus.png" width="140px" height="80px" class="minus" alt=""></span> &nbsp; &nbsp;<span><i class="fa fa-square-o" aria-hidden="true"></i>
+               </span> </div>
+                    <div class="ratingmg"> <span class="text-muted">0</span> <span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="far fa-star ml-2"></i></span><span><i class="far fa-star ml-2"></i></span>                        &nbsp; <span><img src="photos/minus.png" width="140px" height="80px" class="minus" alt=""></span> &nbsp; &nbsp;<span><i class="fa fa-square-o" aria-hidden="true"></i>
+               </span> </div>
+                    <div class="ratingmg"> <span class="text-muted">0</span> <span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="far fa-star ml-2"></i></span><span><i class="far fa-star ml-2"></i></span><span><i class="far fa-star ml-2"></i></span>                        &nbsp; <span><img src="photos/minus.png" width="140px" height="80px" class="minus" alt=""></span> &nbsp; &nbsp;<span><i class="fa fa-square-o" aria-hidden="true"></i>
+               </span> </div>
+                    <div class="ratingmg"> <span class="text-muted">0</span> <span><i class="fa fa-star ml-2" aria-hidden="true"></i></span><span><i class="far fa-star ml-2"></i></span><span><i class="far fa-star ml-2"></i></span><span><i class="far fa-star ml-2"></i></span><span><i class="far fa-star ml-2"></i></span>                        &nbsp; <span><img src="photos/minus.png" width="140px" height="80px" class="minus" alt=""></span> &nbsp; &nbsp;<span><i class="fa fa-square-o" aria-hidden="true"></i>
+               </span> </div>
+                </div>
+
+
+                <div class="col-lg-8 r3">
+                    <div class="bg-white review3">
+                        <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span>                        <span><i class="fa fa-star" aria-hidden="true"></i></span> &nbsp; <span class="text-muted">Rosain Natalia</span> <span class="text-muted day">6 days ago</span>
+                        <p class="para">It was great and comfortable experience.Highly recommended</p>
+                        <span class="text-muted">Treament By Lilly</span>&nbsp; <span class="text-muted manicure">Manicure</span>
+                    </div>
+
+                </div>
+                <div class="col-lg-8 r4">
+                    <div class="bg-white review4">
+                        <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span> <span><i class="fa fa-star" aria-hidden="true"></i></span>                        <span><i class="fa fa-star" aria-hidden="true"></i></span> &nbsp; <span class="text-muted">Rosain Natalia</span> <span class="text-muted day">6 days ago</span>
+                        <p class="para">It was great and comfortable experience.Highly recommended</p>
+                        <span class="text-muted">Treament By Lilly</span>&nbsp; <span class="text-muted manicure">Manicure</span>
+                    </div>
+
+                </div>
+                <div class="col-lg-8 mt-1 ">
+
+                    <p class="showmore aboutpara pt-2 mt-1">Show more</p>
+
+
+                </div>
+            </div>
+            <span class="text-bold " style="font-weight: bold; font-size: large;">About</span>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-lg-8  aboutpara ">
+                    <!-- <div class="aboutpara"></div> -->
+                    <br>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. accusantium, commodi id asperiores similique debitis pariatur enim incidunt quia natus provident ex eligendi doloremque, ea dicta optio at sapiente.</p><br>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. accusantium, commodi id asperiores similique debitis pariatur enim incidunt quia natus provident ex eligendi doloremque, ea dicta optio at sapiente.</p><br>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. accusantium, commodi id asperiores similique debitis pariatur enim incidunt quia natus provident ex eligendi doloremque, ea dicta optio at sapiente.</p><br>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. accusantium, commodi id asperiores similique debitis pariatur enim incidunt quia natus provident ex eligendi doloremque, ea dicta optio at sapiente.</p><br>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. accusantium, commodi id asperiores similique debitis pariatur enim incidunt quia natus provident ex eligendi doloremque, ea dicta optio at sapiente.</p><br>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. accusantium, commodi id asperiores similique debitis pariatur enim incidunt quia natus provident ex eligendi doloremque, ea dicta optio at sapiente.</p><br>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. accusantium, commodi id asperiores similique debitis pariatur enim incidunt quia natus provident ex eligendi doloremque, ea dicta optio at sapiente.</p><br>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. accusantium, commodi id asperiores similique debitis pariatur enim incidunt quia natus provident ex eligendi doloremque, ea dicta optio at sapiente.</p><br>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. accusantium, commodi id asperiores similique debitis pariatur enim incidunt quia natus provident ex eligendi doloremque, ea dicta optio at sapiente.</p><br>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. accusantium, commodi id asperiores similique debitis pariatur enim incidunt quia natus provident ex eligendi doloremque, ea dicta optio at sapiente.</p><br>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+                <div class="col-lg-3 ml-3  review1 ">
+                    <p class="times"> <span> <i class="fa fa-clock-o" aria-hidden="true"></i> Timimgs</span></p> <a href="#" class="open ">OPEN</a>
+                    <hr>
+                    <p class="text-muted">Mon-Sat<span class="timetable">11:00am -8:00pm</span> </p>
+                    <p class="text-muted mt-2">Sun <span class="off">Off</span></p>
+                </div>
+                <div class="col-lg-3   contactus">
+                    <div class=""></div>
+                    <p><span> <i class="fas fa-user fa-lg  user"></i><h5  class="contact">Contact Us</h5></span> </p>
+                    <hr>
+                    <ul>
+
+                        <li class="text-muted"> <span><i class="fas fa-map-marker-alt"></i></span> Satellite Town Gujranwala</li><br>
+                        <li class="text-muted"> <span><i class="fas fa-phone-alt"></i></span> +923482171728</li><br>
+                        <li class="text-muted"> <span><i class="fas fa-envelope-square"></i></span> wixdesign@gmail.com</li><br>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 map1 ">
+                <div class="col  ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d54025.55102643458!2d74.16053755357909!3d32.18814203108373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1603783431131!5m2!1sen!2s" width="280" height="310" frameborder="0"
+                        style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mapradius"></iframe>
+                </div>
+            </div>
+            <h5 class="nearsl ">Nearby Salons</h5>
+            <br>
+            <div class=" nl">
+
+                <div class="col-lg-3 ">
+                    <div class="card " style="width: 16rem; height: 330px;">
+                        <img src="photos/neelum_salon_img.jpg" class="card-img-top" alt="...">
+                        <div class="card-body mt-1">
+                            <h6 class="card-title "><img src="photos/neelum_salon.png" class="mr-2" width="25px" height="25px" alt=""> Neelum's Salon</h6>
+                            <p>4.0 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="far fa-star"></i>&nbsp; 10 reviews 8KM away </pre>
+                            </p>
+
+                            <a href="#" class="btn getapp3 ml-5">Get Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card nears2  mr-5" style="width: 16rem; height: 330px;">
+                        <img src="photos/maryam_salon_img.jpg" class="card-img-top" alt="...">
+                        <div class="card-body mt-1">
+                            <h6 class="card-title"><img src="photos/neelum_salon.png" class="mr-2" width="25px" height="25px" alt=""> Maryam's Salon</h6>
+                            <p>4.0 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="far fa-star"></i>&nbsp; 10 reviews 5KM away </pre>
+                            </p>
+
+                            <a href="#" class="btn getapp3 ml-5">Get Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 ">
+                    <div class="card nears3 mr-5" style="width: 16rem; height: 330px;">
+                        <img src="photos/dua_salon_img.jpg" class="card-img-top" alt="...">
+                        <div class="card-body mt-1">
+                            <h6 class="card-title"><img src="photos/neelum_salon.png" class="mr-2" width="25px" height="25px" alt=""> Dua's Salon</h6>
+                            <p>4.0 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="far fa-star"></i>&nbsp; 10 reviews 7KM away </pre>
+                            </p>
+
+                            <a href="#" class="btn getapp3 ml-5">Get Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 ">
+                    <div class="card nears4" style="width: 16rem; height: 330px;">
+                        <img src="photos/mehak_salon_img.jpg" class="card-img-top" alt="...">
+                        <div class="card-body mt-1">
+                            <h6 class="card-title"><img src="photos/neelum_salon.png" class="mr-2" width="25px" height="25px" alt=""> Mehak Beauty Salon</h6>
+                            <p>4.0 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="far fa-star"></i>&nbsp; 10 reviews 7KM away </pre>
+                            </p>
+
+                            <a href="#" class="btn getapp3 ml-5">Get Appointment</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="footer3">
+        <div class="container">
+            <img src="photos/.footer_img.png" alt="">
+            <img src="photos/beautyfull_logo_footer.png" width="170px" height="100px" class="footimg" alt="">
+            <div class="onediv">
+                <p class="footerpara text"> Smart Mengement of your <br> Salon and customer
+                </p>
+                <i class="fab fa-twitter-square  twi"></i>
+                <i class="fab fa-facebook-square face"></i>
+            </div>
+            <div class="quick">
+                <h2 class="cq">Quick Link</h2>
+                <ul class="fu">
+                    <li>Blogs</li>
+                    <li>Contact me</li>
+                    <li>About us</li>
+                    <li>List with us</li>
+                </ul>
+            </div>
+            <div class="link">
+                <h2 class="cqi">Importance links</h2>
+                <p class="dis1">Disclaminer</p>
+                <p class=" dis2" id="term">Term and Condition</p>
+            </div>
+        </div>
+    </div>
+    <div class="fotcopy1 text-center  ">copyright &copy; 2020 Beautiful - All rights are reserved</div>
+
+
+</body>
+
+</html>

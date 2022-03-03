@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    border-radius: 3px solid red;
+    margin: auto;
+}
+
+nav {
+    background-color: rgb(248, 247, 241);
+    border-radius: 3px solid red;
+    margin: auto;
+    height: 70px;
+    /* bottom-shadow: black 10px black; */
+}
+
+.brand {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: 80px;
+    /* text-transform: uppercase; */
+    font-size: 1.2em;
+    margin-left: 115px;
+    margin-top: -7px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* .logo {
+    color: black;
+    font-size: medium;
+    font-weight: 15px;
+    padding: 0 100px;
+    line-height: 80px;
+} */
+
+nav ul {
+    margin-left: 222px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    padding: 32px;
+    position: relative;
+    bottom: 40px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: medium;
+}
+
+
+/* ///////////////////////// */
+
+.slidertext {
+    margin: -200px 440px;
+    color: white;
+    line-height: 50px;
+}
+
+.slider-header {
+    font-size: 30px;
+}
+
+.slider-btn {
+    border-radius: 5px;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+
+
+/* ////////////////// */
+
+.imgs {
+    width: 80%;
+    margin: 250px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5px;
+    padding-top: 90px;
+}
+
+.img1 {
+    margin-right: 20px;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.img2 {
+    margin-right: 20px;
+    opacity: 0.9;
+}
+
+.img3 {
+    opacity: 0.9;
+}
+
+.category {
+    text-align: center;
+    /* margin-bottom: 90px; */
+    text-transform: uppercase;
+    position: relative;
+    top: 110px;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+
+/* ////////////////////
+ */
+
+.imgs2 {
+    width: 80%;
+    margin-left: 135px;
+    /* margin: 250px auto; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 55px;
+    /* padding: 10px; */
+    /* margin-left: 100px; */
+    padding-top: 130px;
+}
+
+.bag {
+    margin-right: 20px;
+    opacity: 0.9;
+}
+
+.cooker {
+    margin-right: 20px;
+    opacity: 0.9;
+}
+
+.watch {
+    margin-right: 20px;
+    opacity: 0.9;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bag-text {
+    text-align: center;
+    color: rgb(197, 193, 193);
+}
+
+.bottle-text {
+    text-align: center;
+    color: rgb(197, 193, 193);
+}
+
+.clock-text {
+    text-align: center;
+    color: rgb(197, 193, 193);
+    ;
+}
+
+.gaku-table {
+    position: relative;
+    top: 410px;
+}
+
+.text-product {
+    color: white;
+    font-size: 400;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 430px;
+}
+
+
+/* ////////////////////// */
+
+.container-product {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: 250px;
+    line-height: 80px;
+}
+
+.products {
+    width: 80%;
+    margin-left: 135px;
+    /* margin: 250px auto; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 55px;
+    /* padding: 10px; */
+    /* margin-left: 100px; */
+    padding-top: 450px;
+}
+
+.chair {
+    text-align: left;
+    color: rgb(184, 180, 180);
+    font-weight: bold;
+    margin-top: -51px;
+}
+
+.chair span {
+    float: right;
+    font-weight: bold;
+    color: black;
+}
+
+.view-text {
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+    top: 490px;
+}
+
+.view-text:hover {
+    text-decoration: underline;
+}
+
+.steven-star {
+    text-align: center;
+}
+
+.steven-background {
+    background: rgba(61, 59, 59, 0.822);
+    width: 100%;
+    height: 330px;
+    position: relative;
+    top: 530px;
+}
+
+.steven-text {
+    color: white;
+    font-size: x-large;
+    position: relative;
+    top: 130px;
+}
+
+.steven-quote {
+    color: rgb(168, 163, 163);
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+
+.steven-quotes {
+    position: relative;
+    top: 140px;
+    /* left: 200px; */
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* ///////////////////////////////// */
+
+.containership {
+    display: inline-flex;
+    position: relative;
+    top: 556px;
+    left: 154px;
+    width: 80%;
+}
+
+.replacement {
+    /* background: tomato; */
+    margin-right: 90px;
+}
+
+.payments {
+    margin-right: 90px;
+}
+
+.replacement-text {
+    position: relative;
+    top: -74px;
+    margin-left: 25px;
+}
+
+.payment-text {
+    position: relative;
+    top: -74px;
+    margin-left: 25px;
+}
+
+.ship-text {
+    position: relative;
+    top: -74px;
+    margin-left: 25px;
+}
+
+.payment {
+    margin-right: 20px;
+}
+
+.shipping {
+    margin-right: 20px;
+}
+
+.img-pay {
+    width: 30%;
+    position: relative;
+    right: 80px;
+    /* color: rgb(132, 205, 223); */
+}
+
+.hassle-text {
+    color: rgb(168, 164, 164);
+}
+
+.header-payment {
+    font-size: medium;
+}
+
+
+/* ///////////////////////////////////// */
+
+.footer-color {
+    background-color: rgb(197, 65, 65);
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 530px;
+}
+
+.row-footer {
+    display: inline-flex;
+    /* border: greenyellow 1px solid; */
+}
+
+.footer-block1 {
+    /* border: solid red 2px; */
+    display: inline;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.about-store {
+    color: white;
+    font-weight: normal;
+    line-height: 50px;
+}
+
+.about-text {
+    color: rgb(196, 194, 194);
+    line-height: 30px;
+    /* font-size: small; */
+}
+
+.latest-store {
+    color: white;
+    line-height: 60px;
+}
+
+.latest-text {
+    color: rgb(216, 209, 209);
+    display: inline-block;
+    position: relative;
+    top: -35px;
+    left: 5px;
+}
+
+.text-imgside {
+    color: rgb(224, 220, 220);
+    font-weight: 600;
+}
+
+.comment {
+    color: rgb(189, 185, 185);
+    font-size: small;
+}
+
+.quick-store {
+    color: white;
+    line-height: 50px;
+}
+
+.footer-block2 {
+    display: block;
+    margin-left: 129px;
+    margin-top: 20px;
+}
+
+ul li a {
+    line-height: 30px;
+    color: rgb(201, 197, 197);
+    text-decoration: none;
+    list-style: none;
+    font-size: small;
+}
+
+.footer-block4 {
+    display: block;
+    margin-left: 85px;
+    margin-top: 26px;
+}
+
+.Newletter-store {
+    color: white;
+    line-height: 40px;
+}
+
+.spt-center {
+    color: rgb(197, 193, 193);
+    font-size: small;
+    line-height: 60px;
+}
+
+.contact-base {
+    color: rgb(202, 196, 196);
+}
+
+hr {
+    color: rgb(218, 199, 199);
+}
+
+.email-box input[type=text]:focus {
+    background-color: aquamarine;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.copyright {
+    color: rgb(197, 193, 193);
+    font-size: small;
+    text-align: center;
+    margin-top: 20px;
+}

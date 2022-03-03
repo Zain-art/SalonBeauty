@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(250, 157, 157);
+}
+.mainhead{
+    background-color: #6D15A7;
+ 
+    color:white;
+}
+.login{
+    border: rgb(250, 98, 124) 2px solid;
+font-weight: bold;
+border-radius: 5px;
+margin-right: 5px;
+}
+.signup{
+    background-color: rgb(67, 15, 187);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}

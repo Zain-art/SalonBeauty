@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalonSearch2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styleall.css">
+    <link rel="stylesheet" href="javascript/javascript.js">
+</head>
+
+<body>
+    <div class="top_header text-white">
+        <div class="container ml-auto">
+            <div class="col-md-5 ml-auto">
+                <div class="m-0 d-flex pt-2 pb-2 mr-3">
+                    <div class="d-flex">
+                        <i class="fa fa-phone pt-1 mr-2"></i>
+                        <p class="m-0">+92 55 123456</p>
+                    </div>
+                    <div class="d-flex ml-4">
+                        <i class="fa fa-envelope pt-1 mr-2"></i>
+                        <p class="m-0">+92 55 123456</p>
+                        <i class="fab fa-twitter-square ml-3 mt-1 mr"></i>
+                        <i class="fab fa-facebook-square ml-3 mt-1 mr"> </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="photos/beautyfull_logo_header.png" id="imghead" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon "><i class="fas fa-bars"></i></span>
+               </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav  ml-auto mr-2">
+                        <li class="nav-item active">
+                            <a class="nav-link home" href="index.html">Home 1 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menucolor" href="index2.html">salaon 2 <i class="fa fa-chevron-down ml-1"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown menucolor" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories <i class="fa fa-chevron-down ml-1"></i>
+                    </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="">Services</a>
+                                <a class="dropdown-item" href="#">Salon</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item " href="#">Dresses brand</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menucolor" href="index3.html">Deals 3<i class="fa fa-chevron-down ml-1"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  menucolor" href="index3.html" tabindex="-1" aria-disabled="true">Blogs</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-danger m-3 my-2 my-sm-0 out mr-3" type="submit">Login</button>
+                    <button class="btn signup   my-sm-0 " type="submit ">SignUp</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main_slider position-relative">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="photos/hero_img.jpg" width="100%" height="400px" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="photos/2.jpg" width="100%" height="400px" alt="Second slide">
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- End Slider -->
+        <div class="site_filter">
+            <div class="site_filter-position position-absolute p-3 rounded">
+                <div class="row">
+                    <div class="col-lg-5 pr-0">
+                        <select class="form-control">
+                        <option>Select Location</option>
+                        <option>Gujranwal</option>
+                        <option>Lahore</option>
+                        <option>Islamabad</option>
+                     </select>
+                    </div>
+                    <div class="col-lg-5">
+                        <select class="form-control">
+                        <option>Select Location</option>
+                        <option>Gujranwal</option>
+                        <option>Lahore</option>
+                        <option>Islamabad</option>
+                     </select>
+                    </div>
+                    <div class="col-lg-2 pl-0 pr-0 text-white">
+                        <button type="button" class=" text-white btn site_Pink_fill">
+                     Search
+                     <i class="fa fa-search text-white"></i>
+                     </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="containaer">
+        <br>
+        <h3 class=" categories">Categories</h3>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row row-cate">
+            <div class="col">
+                <div class="card" id=" cardset1">
+                    <img src="photos/facial_hover_cat.png" id="fa" alt="">
+                    <p class=" text-center  mt-2 fp">Facial</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" id=" cardset2 ">
+                    <img src="photos/haircare_cat.png" id="fa" alt="">
+                    <p class=" text-center mt-2 text-muted">Hair Care</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" id=" cardset3">
+                    <img src="photos/makeup_cat.png" id="fa" alt="">
+                    <p class=" text-center mt-2 text-muted">MakeUp</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" id=" cardset4">
+                    <img src="photos/manicure_cat.png" id="fa" alt="">
+                    <p class=" text-center mt-2 text-muted">ManiCure</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" id=" cardset5">
+                    <img src="photos/pedicure_cat.png" id="fa" alt="">
+                    <p class=" text-center mt-2 text-muted">Pedicure</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" id=" cardset6">
+                    <img src="photos/body_cat.png" id="fa" alt="">
+                    <p class=" text-center mt-2 text-muted">Body</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" id=" cardset7">
+                    <img src="photos/massage_cat.png" id="fa" alt="">
+                    <p class=" text-center mt-2 text-muted">Massage</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <p class=" resfond ">2219 result founds</p>
+        <div class="row ml-4 row-col-2">
+            <div class="col-8 ">
+                <div class="card " style="width:500">
+                    <img src="photos/neelum_salon_img.jpg" class="card-img-top card-image" alt="...">
+
+                    <div class=" cs fescard deel">
+                        <div class="displaystar">
+                            <img src="photos/neelum_salon.png" class="imgm" alt=""><span class="card-text">Maryam's Salons</span>
+                            <span><i class="fas fa-heart "></i></span>
+                            <br>
+                            <br>
+                            <p>4.0 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="far fa-star"></i> <span class="reviewt">10 reviews</span>
+                                </pre>
+                            </p>
+                            <p class="address1 text-muted">Satellite town Gujranwala</p>
+                            <span><i class="fas fa-calendar-alt"></i>&nbsp; Monday-Saturday</span>&nbsp; &nbsp; &nbsp;
+                            <span><i class="far fa-clock"></i>  <p class="timeof">8:00 AM - 9:00PM </p> </span>
+                        </div>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-dark">Facial - Esstenial </li>
+                        <span class="time h11 ">1hr</span><span class="pricetwo">Rs.2000</span>
+                        <li class="list-group-item text-dark">Microneedling Meso Cocktail</li>
+                        <span class="time1">45Min</span><span class="price1">Rs.1000</span>
+                        <li class="list-group-item text-dark">Vestibulum at eros</li>
+                        <span class="time2">1hr</span><span class="price2">Rs.4000</span>
+                        <li class="list-group-item text-dark"><a href="" class="viewdetail2 ">View all Details</a> <a href="#" class="btn cardbtn">Get Appointment</a></li>
+                    </ul>
+                </div>
+                <div class="card card2" style="width:500">
+                    <img src="photos/neelum_salon_img.jpg" class="card-img-top card-image" alt="...">
+                    <span class="ml-aut0">
+                        <div class=" cs fescard deel">
+                           <div class="displaystar">
+                              <img src="photos/maryam_salon.png" class="imgc"  alt=""><span class="card-text">Neelum's Salons</span>
+                    <span><i class="fas fa-heart "></i></span>
+                    <br>
+                    <br>
+                    <p>4.0 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="far fa-star"></i><span class="reviewt">10 reviews</span>
+                        </pre>
+                    </p>
+                    <p class="address text-muted">Satellite town Gujranwala</p>
+                    <span><i class="fas fa-calendar-alt"></i>&nbsp; Monday-Saturday</span>&nbsp; &nbsp; &nbsp;
+                    <span><i class="far fa-clock"></i> <p class="timeof">8:00 AM - 9:00PM </p></span>
+                </div>
+            </div>
+            </span>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item text-dark">Facial - Esstenial </li>
+                <span class="time h11">1hr</span><span class="pricetwo">Rs.2000</span>
+                <li class="list-group-item text-dark">Microneedling Meso Cocktail</li>
+                <span class="time1">45Min</span><span class="price1">Rs.1000</span>
+                <li class="list-group-item text-dark">Vestibulum at eros</li>
+                <span class="time2">1hr</span><span class="price2">Rs.4000</span>
+                <li class="list-group-item text-dark"> <a href="" class="viewdetail2">View all Details</a> <a href="#" class="btn cardbtn">Get Appointment</a> </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-4 ">
+        <div class="card sidecard">
+            <h4 class="headingside1">Sort by</h4>
+            <p class="recom ml-3">Recommended</p>
+            <ul class="text-dark ml-3 listsidebar">
+                <!-- <li class="lis1">Recommended</li> -->
+                <span><i class="fas fa-check-circle"></i></span>
+                <li class="lis">Highest Rated</li>
+                <span class="circle"><i class="far fa-circle"></i></span>
+                <li class="lis">Lower Price</li>
+                <span class="circle"><i class="far fa-circle"></i></span>
+                <li class="lis">Highest Price</li>
+                <span class="circle"><i class="far fa-circle"></i></span>
+                <li class="lis">Discount</li>
+                <span class="circle"><i class="far fa-circle"></i></span>
+            </ul>
+            <span class="headingside2">Price Range</span> <span class="sidecard-price">Rs.5000 -Rs.25000</span>
+            <div class="rangeslider">
+                <input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+                <input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+                <span class="range_min light left">10.000 €</span>
+                <span class="range_max light right">90.000 €</span>
+            </div>
+            <h4 class="headingside3">Facilites</h4>
+            <ul class="text-dark ml-4 facilites">
+                <li class="lis">Women Only <span><i class="far fa-square"></i></span></li>
+                <li class="lis">Child Friendly <span><i class="far fa-square"></i></span></li>
+                <li class="lis">Pet Friendly <span><i class="far fa-square"></i></span></li>
+                <li class="lis">Free WiFi <span><i class="far fa-square"></i></span></li>
+                <li class="lis">Relaxcation Room <span><i class="far fa-square"></i></span></li>
+                <li class="lis">WheelChair Accessible <span><i class="far fa-square"></i></span></li>
+            </ul>
+            <div class="card-footer bg-white">
+                <a href="" class="viewalldetail ">Clear Filers</a> <a href="#" class="btn apply">Apply</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col">
+                <div class="card card3">
+                    <img src="photos/neelum_salon_img.jpg" class="card-img-top card-image" alt="...">
+                    <span class="ml-aut0">
+                           <div class=" cs fescard deel">
+                              <div class="displaystar">
+                                 <img src="photos/maryam_salon.png" class="imgc"  alt=""><span class="card-text">Mehak's Salons</span>
+                    <span><i class="fas fa-heart "></i></span>
+                    <br>
+                    <br>
+                    <p>4.0 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="far fa-star"></i><span class="reviewt">10 reviews</span>
+                        </pre>
+                    </p>
+                    <p class="address text-muted">Satellite town Gujranwala</p>
+                    <span><i class="fas fa-calendar-alt"></i>&nbsp; Monday-Saturday</span>&nbsp; &nbsp; &nbsp;
+                    <span><i class="far fa-clock"></i> <p class="timeof">8:00 AM - 9:00PM </p></span>
+                </div>
+            </div>
+            </span>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item text-dark">Facial - Esstenial </li>
+                <span class="time h11">1hr</span><span class="pricetwo">Rs.2000</span>
+                <li class="list-group-item text-dark">Microneedling Meso Cocktail</li>
+                <span class="time1">45Min</span><span class="price1">Rs.1000</span>
+                <li class="list-group-item text-dark">Vestibulum at eros</li>
+                <span class="time2">1hr</span><span class="price2">Rs.3000</span>
+                <li class="list-group-item text-dark"> <a href="" class="viewdetail2">View all Details</a> <a href="#" class="btn cardbtn">Get Appointment</a> </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="col  map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d54025.55102643458!2d74.16053755357909!3d32.18814203108373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1603783431131!5m2!1sen!2s" width="290" height="510" frameborder="0"
+            style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="footerc">
+        <div class="container">
+            <img src="photos/.footer_img.png" alt="">
+            <img src="photos/beautyfull_logo_footer.png" width="170px" height="100px" class="footimg" alt="">
+            <div class="onediv">
+                <p class="footerpara text"> Smart Mengement of your <br> Salon and customer
+                </p>
+                <i class="fab fa-twitter-square  twi"></i>
+                <i class="fab fa-facebook-square face"></i>
+            </div>
+            <div class="quick">
+                <h2 class="cq">Quick Link</h2>
+                <ul class="fu">
+                    <li>Blogs</li>
+                    <li>Contact me</li>
+                    <li>About us</li>
+                    <li>List with us</li>
+                </ul>
+            </div>
+            <div class="link">
+                <h2 class="cqi">Importance links</h2>
+                <p class="dis1">Disclaminer</p>
+                <p class=" dis2" id="term">Term and Condition</p>
+            </div>
+        </div>
+    </div>
+    <div class="fotcopy1 text-center  ">copyright &copy; 2020 Beautiful - All rights are reserved</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</body>
+
+</html>
